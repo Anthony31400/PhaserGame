@@ -120,7 +120,7 @@ var config = {
         player.anims.play('turn');
     }
     
-    if (cursors.up.isDown && player.body.touching.down)
+    if (cursors.space.isDown && player.body.touching.down)
     {
         player.setVelocityY(-330);
     }
